@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:elevation="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/portada"
+                android:layout_width="380dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"
+                />
+            <ImageView
+                android:id="@+id/divisor"
+                android:layout_width="8dp"
+                android:layout_height="110dp"
+                android:layout_toRightOf="@id/portada"
+                android:background="#000000"/>
+
+
+            <ImageView
+                android:id="@+id/logotipo"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_toRightOf="@id/divisor"
+
+                />
+
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Nombre Restaurante"
+                android:textColor="#000000"
+
+                android:layout_below="@id/portada"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:textColor="#ad000000"
+
+                android:layout_below="@id/nombre"
+                android:padding="10dp"
+                android:textSize="20sp"
+                />
+
+            <TextView
+
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="telefono"
+                android:textColor="#ad000000"
+                android:layout_toRightOf="@id/nombre"
+                android:layout_below="@id/portada"
+
+                android:padding="10dp"
+                android:textSize="20sp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

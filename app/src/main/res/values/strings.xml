@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodYeah</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_title">la seccion es</string>
+    <string name="title_activity_comida_azure">ComidaAzure</string>
+    <string name="title_activity_lista_restaurantes">Lista de Restaurantes</string>
+    <string name="title_activity_deascripcion_comida">Descripcion de Comida</string>
+    <string name="title_activity_restaurante_mapa">Restaurante</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_mapa_rutas">Ruta</string>
+
+</resources>
